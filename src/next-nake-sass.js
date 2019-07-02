@@ -23,6 +23,9 @@
 
       fs.mkdirSync(path.dirname(dest), { recursive: true });
       fs.writeFileSync(dest, result.css);
+
+      console.log(sass.info);
+
     });
   };
 
