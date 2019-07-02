@@ -8,7 +8,9 @@ npm install -S afeiship/next-nake-sass --registry=https://registry.npm.taobao.or
 
 ## usage
 ```js
-//DOCS here!
+import nxNakeSass from 'next-nake-sass';
+
+nxNakeSass(['test/*.scss'], 'dist');
 ```
 
 ## resources
